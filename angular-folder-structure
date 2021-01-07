@@ -1,0 +1,48 @@
+1.e2e-->end to end development
+--it is a folder
+--used for devops people
+--work in e2e until your project goes to live on server.
+
+2.node_modules 
+--to use built in functions,libraries in angular
+--if it is not present in your project your project won't run
+
+3.editorconfig
+--hidden
+--editor file
+--vs code format.
+
+4.gitignore
+--whenever you are uploading your project on gitHub then the files which you have to ignore are peresnt in this file.
+
+5.angular.json
+--defaults for all projects in the workspace, including configuration options for build, serve, and test tools that the CLI uses
+
+6.package-lock.json
+--package-lock.json is automatically generated for any operations where npm modifies 
+  either the node_modules tree, or package.json 
+--Provides version information for all packages installed into node_modules by the npm client
+
+7.package.json
+--used to add dependencies for dev,test etc.
+
+8.README.mdc.
+--read me file.
+--documentation
+
+9.tsconfig.json
+--We can take updated version of TS using ng update.
+
+10.tslint.json
+--set by devops //can use multiple people 
+
+11.gitkeep
+.gitkeep is just a placeholder. A dummy file, so Git will not forget about the directory,
+ since Git tracks only files.
+12.gitignore
+
+The. gitignore file is used to let git ignore files that are not needed in your version control system. 
+So you can also use this method to add a. gitignore file to the empty directory so that git can track them.
+
+
+
